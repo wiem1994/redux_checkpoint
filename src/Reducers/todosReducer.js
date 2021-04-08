@@ -22,7 +22,7 @@ export default function todosReducer(state = inititalState, action) {
                     {
                         id: Math.random(),
                         task: payload.newTask,
-                        isDone: "false",
+                        isDone: true,
                     },
                 ],
             };
