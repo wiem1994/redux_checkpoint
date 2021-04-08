@@ -8,8 +8,6 @@ function Task({ todo_task, index }) {
     const dispatch = useDispatch();
     const handleClick = () => {
         dispatch(editDone({ id: todo_task.id }));
-
-        todo_task.isDone = !todo_task.isDone;
     };
     return (
         <div
